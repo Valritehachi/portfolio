@@ -4,17 +4,19 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   padding: 0;
 }
 
-/* Set a background color and font styles */
+/* Set a background image and font styles */
 body {
-  background-color: #f8f8f8;
+  background-image: url('images/heros-image.png'); /* Replace 'path/to/your/background-image.jpg' with the actual path to your background image */
+  background-size: cover;
+  background-position: center;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #0c0202;
 }
 
 /* Style the header */
 header {
-  background-color: #444;
-  color: #fff;
+  background-color: #135e7c;
+  color: #090303;
   padding: 1rem;
 }
 
@@ -22,7 +24,7 @@ header {
 header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: black; /* Add this line to set the font color to black */
+  color: rgb(12, 1, 1);
 }
 
 header p {
@@ -40,12 +42,12 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #0d0202;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #ccc;
+  color: #0a0303;
 }
 
 /* Style the main content */
@@ -55,10 +57,7 @@ main {
 
 /* Style the hero section */
 #hero {
-  background-image: url('image/heros-image.png');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
+  color: #1d697c;
   text-align: center;
   padding: 4rem 0;
 }
@@ -74,8 +73,8 @@ main {
 }
 
 #hero .btn {
-  background-color: #333;
-  color: #fff;
+  background-color: #0a2c35;
+  color: #0b0202;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
@@ -114,8 +113,8 @@ section p {
 
 /* Style the footer */
 footer {
-  background-color: #444;
-  color: #fff;
+  background-color: #0c4d6a;
+  color: #080303;
   text-align: center;
   padding: 1rem 0;
 }
